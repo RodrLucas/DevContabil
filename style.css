@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
+}
+
+.caixa-superior{
+    background-image: url(./dev.png);
+    background-size: cover;
+    height: 90vh; /* Como se fosse 90% do total da tela */
+    width: 100%;
+}
+
+.cabecalho{
+    color: #FFFFFF;
+    position: relative;
+    left: 39px;
+    top: 38px;
+}
+
+.titulo-cabecalho{
+    font-weight: bolder;
+    display: inline;
+    margin-right: 100px;
+}
+
+.links{
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.titulo-superior{
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 900;
+    position: relative;
+    top: 400px;
+    left: 65px;
+}
+
+form{
+    background: #FFFFFF;
+    float: right;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.titulo-form{
+    text-align: center;
+    color: #252B42;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 20px;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+input{
+    display:block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+}
+
+textarea{
+    display:block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 400px;
+    height: 120px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+}
+
+button{
+    background: #40BB15;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 366px;
+    height: 52px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;;
+    cursor: pointer;
+}
+
+.titulo-meio{
+    margin-top: 77px;
+    text-align: center;
+    color: #252B42;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 89px;
+}
+
+.caixa-central{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.titulo-card{
+    background-color: #219653;
+    border-radius: 11px 11px 0 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.card{
+    background: #EEF6FF;
+    border: 1px solid #A9D6FF;
+    border-radius: 0px 0px 11px 11px;
+}
+
+ul{
+    padding: 30px 50px 30px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    margin: 5px 0;
+}
+
+li{
+    padding: 5px;
+}
+
+.caixa-inferior{
+    background: #252B42;
+    padding-top: 61px;
+    padding-bottom: 58px;
+}
+
+.titulo-inferior{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto-inferior{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0 138px 0 138px;
+    margin: 30px 30px 40px 30px;
+}
