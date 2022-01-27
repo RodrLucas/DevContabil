@@ -1,4 +1,5 @@
-*{
+ 
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -108,7 +109,7 @@ button{
     cursor: pointer;
 }
 
-.titulo-meio{
+#titulo-meio{
     margin-top: 77px;
     text-align: center;
     color: #252B42;
@@ -160,7 +161,7 @@ li{
     padding-bottom: 58px;
 }
 
-.titulo-inferior{
+#titulo-inferior{
     text-align: center;
     color: #FFFFFF;
     font-size: 40px;
